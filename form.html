@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zappyworks</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="SiguUpPage">
+        <main>
+            <section class="companyDetail">
+                <div class="SiteDetail">
+                    <header>
+                        <div>
+                            <img src="https://github.com/REOpranav/zappyworkDashboard/blob/master/images/zappyLogo.png?raw=true"
+                                alt="logo">
+                            Zappyworks
+                        </div>
+                    </header>
+                    <footer>
+                        <div>
+                            <p>
+                                Welcome to the era of lazeness 4.0
+                            </p>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+            <section class="signUpSide">
+                <div class="signUpForm">
+                    <header>
+                        <div>
+                            <p>Sign Up For Free.</p>
+                            <p>Let's sign up quickly to get started.</p>
+                        </div>
+                        <div>
+                            <img src="https://github.com/REOpranav/zappyworkDashboard/blob/master/images/zappyLogo.png?raw=true"
+                                alt="logo">
+                        </div>
+                    </header>
+
+                    <div>
+                        <form>
+                            <p>
+                                <label for="username">Username</label> <br>
+                                <i class="fa-solid fa-user" class="icons"></i>
+                                <input type="text" name="username" id="username" placeholder="Username"> <br>
+                                <span id="span"></span>
+                            </p>
+                            <p>
+                                <label for="email">Email Address</label><br>
+                                <i class="fa-solid fa-envelope" class="icons"></i>
+                                <input type="text" name="email" id="email" placeholder="Email Address"> <br>
+                                <span id="span"></span>
+                            </p>
+                            <p>
+                                <label for="password">Password</label> <br>
+                                <i class="fa-solid fa-lock" class="icons"></i>
+                                <input type="password" name="password" id="password" placeholder="Password"> <br>
+                                <span class="error-Indicator">
+                                    <span class="must-eight-char"></span>
+                                    <span class="must-spacial-char"></span>
+                                    <span class="must-upper-lower-case"></span>
+                                </span>
+                                <span style="color: white;">Password Strength :</span >  
+                                <span style="color: white;margin-left: 0;"  id="span"> </span>
+                            </p>
+                            <div id="submitButton">
+                                <button type="submit"> Sign up <i class="fa-solid fa-right-to-bracket"></i> </button>
+                            </div>
+                        </form>
+                    </div>
+                    <footer>
+                        <div>
+                            <p>Already have an account? <a href="#">Sign In</a></p>
+                            <p>
+                                <button title="Sign Up via Google">
+                                    <img src="Images/googe_png.png" alt="logo">
+                                    Sign up With Google
+                                </button>
+                            </p>
+                        </div>
+                    </footer>
+
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
